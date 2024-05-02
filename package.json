@@ -1,0 +1,37 @@
+{
+  "name": "taraz_chat_mobile",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@alireza-ab/vue-persian-datepicker": "^2.3.2",
+    "@alireza-ab/vue3-persian-datepicker": "^1.0.3",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@headlessui/vue": "^1.7.19",
+    "axios": "^1.6.8",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-axios": "^3.5.2",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.3.0",
+    "vue3-popper": "^1.5.0",
+    "vue3-timepicker": "^1.0.0-beta.2",
+    "vue3-touch-events": "^4.1.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.5",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.1.6",
+    "vitest": "^1.4.0"
+  }
+}
